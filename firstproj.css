@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(rgb(74, 69, 69), rgb(31, 38, 31), rgb(70, 70, 79));
+    display: inline-block;
+}
+#toss{
+    background-color: limegreen;
+    color: white;
+    font-size: 50px;
+    width: 33%;
+
+}
+#formtitle{
+    color: green;
+    font-size: large;
+    font-weight: bolder;
+    box-sizing:border-box;
+}
+#container{
+    text-align: center ;
+    border:1px solid black;
+   
+}
+#grid-container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-columns: 4px 4px 4px;
+    gap: 10px;
+height: 10px;
+width:10px;
+
+}
+#content{
+    display: grid;
+    float: left;
+    /* grid-template-columns:repeat(3,1fr);
+    grid-template-columns: 4px 4px 4px;
+    gap: 10px;
+height: 10px;
+width:10px; */
+}
